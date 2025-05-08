@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Comic Relief", system-ui;
+}
+header {
+    background-color: rgb(210, 223, 255);
+    padding: 6px;
+    text-align: center;
+}
+header nav {
+    margin: 10px;
+}
+
+header nav a {
+    color: black;
+    text-transform: uppercase;
+    padding: ;
+}
+
+.banner {
+    background-image: url(../img/banner_cachorro.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    height: 400px;
+}
+
+.banner h1 {
+    font-size: 3em;
+    letter-spacing: 0.2em;
+}
+
+.banner a {
+    background-color: rgb(163, 153, 231);
+    color: rgb(82, 59, 104);
+    padding: 10px 20px;
+    font-size: 1.5em;
+    border-radius: 40px;
+    margin-top: 20px;
+    display: inline-block;
+}
